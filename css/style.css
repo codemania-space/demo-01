@@ -1,0 +1,68 @@
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.button {
+  width: 233px;
+  background-color: #ecb942;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+  border: none;
+  padding: 14px 46px;
+  cursor: pointer;
+}
+
+.main-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: 600;
+}
+
+.intro {
+  background-image: url('../img/intro-bg.png');
+}
+
+.intro-title {
+  font-size: 64px;
+  line-height: 78px;
+}
+
+.section-title {
+  font-size: 48px;
+  line-height: 59px;
+}
+
+.about-text {
+  font-weight: 600px;
+}
+
+.offer {
+  background-image: url('../img/promo-bg.png');
+}
+
+.tasks-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.partners-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.socials-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.copyright {
+  font-size: 14px;
+  line-height: 21px;
+}

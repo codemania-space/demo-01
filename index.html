@@ -2,8 +2,11 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <!-- <link rel="preload" href="fonts/montserrat-v25-latin_cyrillic-regular.woff2" as="font" type="font/woff2" crossorigin /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/test/style.css" />
     <title>Благотворительный фонд Second Book</title>
   </head>
   <body>
@@ -12,7 +15,7 @@
         <img src="img/logo.svg" alt="Логотип фонда Second Book" />
       </a>
       <nav>
-        <ul class="main-menu">
+        <ul class="main-menu list-style">
           <li class="main-menu-item">Главная</li>
           <li class="main-menu-item">Поддержать</li>
           <li class="main-menu-item">Блог</li>
@@ -26,33 +29,33 @@
         <h2 class="intro-title">Передай книгу. Измени мир.</h2>
         <p class="intro-slogan">Думаете, куда можно отдать старые книги? Вы можете передать их в благотворительный фонд</p>
         <div>
-          <button class="button">Передать книги</button>
-          <button class="button">Подробнее</button>
+          <a class="button">Передать книги</a>
+          <a class="button button-secondary">Подробнее</a>
         </div>
       </section>
       <section class="tasks">
-        <h2 class="section-title">Задачи фонда</h2>
-        <ul class="tasks-list">
+        <h2 class="tasks-title section-title">Задачи фонда</h2>
+        <ul class="tasks-list list-style">
           <li class="tasks-list-item">
             <h3 class="tasks-list-item-title">Спасём деревья</h3>
-            <p>Прекратим вырубку леса и посадим новые деревья с www.trees.org. Поддержим программу высадки специальных видов быстрорастущих деревьев.</p>
+            <p class="tasks-list-item-info">Прекратим вырубку леса и посадим новые деревья с <a class="link" href="https://www.trees.org">www.trees.org</a>. Поддержим программу высадки специальных видов быстрорастущих деревьев.</p>
           </li>
           <li>
             <h3 class="tasks-list-item-title">Образование</h3>
-            <p>Поддержим школы вместе с www.donorschoose.org. DonorsChoose помогают учебным заведениям в приобретении необходимых материалов.</p>
+            <p>Поддержим школы вместе с <a class="link" href="https://www.donorschoose.org">www.donorschoose.org</a>. DonorsChoose помогают учебным заведениям в приобретении необходимых материалов.</p>
           </li>
           <li>
             <h3 class="tasks-list-item-title">Благотворительность</h3>
-            <p>Пересылаем книги в Африку с www.betterworldbooks.com. Мы отправляем большую часть книг в Кению и Нигерию при поддержке фонда Better World Books.</p>
+            <p>Пересылаем книги в Африку с <a class="link" href="https://www.betterworldbooks.com">www.betterworldbooks.com</a>. Мы отправляем большую часть книг в Кению и Нигерию при поддержке фонда Better World Books.</p>
           </li>
         </ul>
       </section>
       <section class="about">
-        <h2 class="section-title">Как это работает?</h2>
+        <h2 class="about-title">Как это работает?</h2>
         <img src="img/about.png" alt="Дети, читающие книги и ростки деревьев" />
         <p class="about-text">Вы отдаёте 1 коробку книг = мы сажаем 10 деревьев</p>
         <p class="about-text">Вы отдаёте 1 коробку книг = мы финансируем образовательный проект</p>
-        <p class="about-text">Если в вашем городе нет отделения нашего фонда и вы отправляете книги транспортной компанией, мы компенсируем оплату перевозки по тарифу до 10кг.</p>
+        <p class="about-info">Если в вашем городе нет отделения нашего фонда и вы отправляете книги транспортной компанией, мы компенсируем оплату перевозки по тарифу до 10кг.</p>
         <button class="button">Передать книги</button>
       </section>
       <section class="mission">
@@ -61,7 +64,7 @@
       </section>
       <section class="partners">
         <h2 class="section-title">Наши партнёры</h2>
-        <ul class="partners-list">
+        <ul class="partners-list list-style">
           <li class="partners-list-item">
             <a href="">
               <img src="img/trees-logo.svg" alt="Логотип trees.org" />
@@ -99,7 +102,7 @@
       </section>
       <section class="socials">
         <h2 class="section-title">Соцсети</h2>
-        <ul class="socials-list">
+        <ul class="socials-list list-style">
           <li class="socials-list-item">
             <a href="">
               <svg></svg>

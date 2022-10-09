@@ -5,37 +5,14 @@
   --btn-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
 }
 
-/* @font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap; //оптимизация №1
-  src: url('../fonts/montserrat-v25-latin_cyrillic-regular.woff2') format('woff2'), url('../fonts/montserrat-v25-latin_cyrillic-regular.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap; //оптимизация №1
-  src: url('../fonts/montserrat-v25-latin_cyrillic-regular.woff2') format('woff2'), url('../fonts/montserrat-v25-latin_cyrillic-regular.woff') format('woff');
-} 
-
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap; //оптимизация №1
-  src: url('../fonts/montserrat-v25-latin_cyrillic-regular.woff2') format('woff2'), url('../fonts/montserrat-v25-latin_cyrillic-regular.woff') format('woff');
-} */
-
 body {
   font-family: 'Montserrat', Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
+  /* max-width: 1920px;
   min-width: 1200px;
-  margin: 0;
+  margin: 0 auto; */
   padding: 0;
   background-color: var(--bg-white);
 }
@@ -66,7 +43,22 @@ img {
   box-shadow: none;
 }
 
+.main-nav {
+  width: 50%;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start; /* дефолтное свойство, выравнивание по левой части */
+  align-items: center; /* вертикальное выравнивание */
+  gap: 40px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .main-menu {
+  display: flex;
+  justify-content: space-around; //горизонтальное выравнивание
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
